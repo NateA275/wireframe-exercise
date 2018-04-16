@@ -70,10 +70,26 @@ article {
 
 article h2 {
   margin: 0;
+  font-size: 16pt;
 }
 
 article p {
   margin: 0;
+  height: 330px;
+  margin: 5px 0 10px 0;
+  overflow: auto;
+}
+
+article button {
+  width: 250px;
+  border-radius: 5px;
+  padding: 5px 0 5px 0;
+
+}
+
+article button:hover {
+  color: white;
+  background-color: rgb( 50, 50, 50);
 }
 
 footer {
